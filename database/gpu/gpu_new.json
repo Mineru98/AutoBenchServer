@@ -861,14 +861,6 @@
 		"slot type": "PCIe 3.0 x16"
 	},
 	{
-		"rank": 107,
-		"model_name": "Radeon HD 8400E",
-		"score": 339,
-		"url": "https://www.techpowerup.com/gpu-specs/radeon-hd-8400e.c2195",
-		"manufacturer": "amd",
-		"slot type": "IGP"
-	},
-	{
 		"rank": 108,
 		"model_name": "Radeon RX 570",
 		"score": 6897,
@@ -8624,6 +8616,14 @@
 		"url": "https://www.techpowerup.com/gpu-specs/firegl-v5600.c849",
 		"manufacturer": "ati",
 		"slot type": "PCIe 1.0 x16"
+	},
+    {
+		"rank": 1077,
+		"model_name": "Radeon HD 8400E",
+		"score": 339,
+		"url": "https://www.techpowerup.com/gpu-specs/radeon-hd-8400e.c2195",
+		"manufacturer": "amd",
+		"slot type": "IGP"
 	},
 	{
 		"rank": 1078,

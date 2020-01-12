@@ -22,10 +22,6 @@ def init_db(mode):
     # Document Reset
     myclient = pymongo.MongoClient("mongodb://localhost/autobench")
     document = myclient["autobench"]
-    document["department"].drop()
-    document["role"].drop()
-    document["task"].drop()
-    document["employee"].drop()
     document["cpu"].drop()
     document["gpu"].drop()
     document["ram"].drop()
