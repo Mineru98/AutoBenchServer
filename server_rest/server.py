@@ -77,5 +77,17 @@ def ram_model(modelName):
     resp = dumps(ram)
     return resp
 
+@app.route('/mainboard')
+def all_mainboards():
+    mainboards = mongo.db.mainboard.find()
+    resp = dumps(mainboards)
+    return resp
+
+@app.route('/mainboard/<modelName>')
+def mainboard_model(modelName):
+    mainboard = mongo.db.mainboard.find_one({'model_name': modelName})
+    resp = dumps(mainboard)
+    return resp
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=int(sys.argv[1]))
