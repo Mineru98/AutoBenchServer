@@ -90,4 +90,4 @@ def mainboard_model(modelName):
     return resp
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=int(sys.argv[1]))
+    app.run(host='0.0.0.0', port=5000)
